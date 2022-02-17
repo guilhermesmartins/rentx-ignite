@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { describe, it, expect } from '@jest/globals';
 
-import AppError from '../../../../errors/AppError';
+import AppError from '@shared/errors/AppError';
 import CategoriesRepositoryInMemory from '../../repositories/Implementations/in-memory/CategoriesRepositoryInMemory';
 import CreateCategoryUseCase from './CreateCategoryUseCase';
 

@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner, TableColumn} from "typeorm";
+import {MigrationInterface, QueryRunner, TableColumn} from "@shared/infra/typeorm";
 
 export class AlterUserAddAvatar1643165137786 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {

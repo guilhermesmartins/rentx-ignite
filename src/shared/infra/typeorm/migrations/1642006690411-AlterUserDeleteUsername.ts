@@ -1,4 +1,4 @@
-import { MigrationInterface, QueryRunner, TableColumn } from "typeorm";
+import { MigrationInterface, QueryRunner, TableColumn } from "@shared/infra/typeorm";
 
 export class AlterUserDeleteUsername1642006690411 implements MigrationInterface {
 

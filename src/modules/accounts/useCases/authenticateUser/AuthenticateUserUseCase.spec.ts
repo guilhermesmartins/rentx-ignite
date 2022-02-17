@@ -1,5 +1,5 @@
 import { describe, it, beforeEach } from '@jest/globals';
-import AppError from '../../../../errors/AppError';
+import AppError from '@shared/errors/AppError';
 
 import { ICreateUserDTO } from '../../dtos/ICreateUserDTO';
 import UsersRepositoryInMemory from '../../repositories/implementations/in-memory/UsersRepositoryInMemory';

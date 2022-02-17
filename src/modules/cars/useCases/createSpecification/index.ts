@@ -1,4 +1,4 @@
-import SpecificationsRepository from '../../repositories/Implementations/SpecificationsRepository';
+import SpecificationsRepository from '../../infra/typeorm/repositories/SpecificationsRepository';
 import CreateSpecificationController from './CreateSpecificationController';
 import CreateSpecificationUseCase from './CreateSpecificationUseCase';
 
