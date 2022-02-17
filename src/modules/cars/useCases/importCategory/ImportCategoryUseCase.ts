@@ -2,7 +2,7 @@ import { parse } from 'csv-parse';
 import { createReadStream, promises } from 'fs';
 import { inject, injectable } from 'tsyringe';
 
-import CategoriesRepository from '../../repositories/Implementations/CategoriesRepository';
+import CategoriesRepository from '../../infra/typeorm/repositories/CategoriesRepository';
 
 interface ImportCategory {
   name: string;

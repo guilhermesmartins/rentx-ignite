@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner, Table} from "@shared/infra/typeorm";
+import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
 export class CreateCategories1641505611364 implements MigrationInterface {
 
