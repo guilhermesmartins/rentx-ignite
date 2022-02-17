@@ -1,5 +1,5 @@
 import { getRepository, Repository } from 'typeorm';
-import Category from '@modules/Cars/entities/Category';
+import Category from '@modules/cars/infra/typeorm/entities/Category';
 import {
   ICategoriesRepository,
   ICreateCategoryDTO

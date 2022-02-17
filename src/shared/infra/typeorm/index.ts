@@ -1,4 +1,4 @@
-import { createConnection, getConnectionOptions } from '@shared/infra/typeorm';
+import { createConnection, getConnectionOptions } from 'typeorm';
 
 interface IOptions {
     host: string;
