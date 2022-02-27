@@ -5,17 +5,11 @@ import IUsersRepository from '@modules/accounts/repositories/IUsersRepository';
 export default class UsersRepositoryInMemory implements IUsersRepository {
   users: User[] = [];
 
-  async create({
-    driver_license,
-    password,
-    username
-  }: ICreateUserDTO): Promise<void> {
+  async create(data: ICreateUserDTO): Promise<void> {
     const user = new User();
 
     Object.assign(user, {
-      driver_license,
-      password,
-      username
+      ...data
     });
 
     this.users.push(user);
